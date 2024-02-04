@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <link
       rel="stylesheet"
       href="https://luisrrleal.com/styles/leal-styles.css"
     >
     <link rel="stylesheet" href="styles/index.css" >
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
     <title>Luis Leal CV</title>
   </head>
   <body>
@@ -16,37 +23,58 @@
           src="assets/luis-leal.jpg"
           alt=""
           class="max-width p-40 radius-100"
-        >
+        />
         <h2>Sobre mi</h2>
-        <p>Estudiante de Ingeniería en Sistemas Computacionales. Desde temprana edad, he tomado diversos cursos de desarrollo que se presentan aquí. Actualmente trabajando para Creativa 2020 (Agencia de marketing), el TecNM en Celata y con proyectos como Freelancer.
+        <p class="justify-text">
+          Estudiante de Ingeniería en Sistemas Computacionales. Desde temprana
+          edad, he tomado diversos cursos de desarrollo que se presentan aquí.
+          Actualmente trabajando para Creativa 2020 (Agencia de marketing), el
+          TecNM en Celata y con proyectos como Freelancer.
         </p>
-        <div>
-          <h2>Contacto</h2>
+        <div class="flex column gap-15">
+          <h2 class="mt-20">Contacto</h2>
           <div>
-            <p>luisrrleal.com</p>
+            <i class="fa-solid fa-globe"></i>
+            <a href="https://luisrrleal.com" class="black-text" target="_blank"
+              >luisrrleal.com</a
+            >
           </div>
           <div>
-            <p>contacto@luisrrleal.com</p>
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:contacto@luisrrleal.com" class="black-text"
+              >contacto@luisrrleal.com</a
+            >
           </div>
           <div>
-            <p>@luislealdev</p>
+            <i class="fa-brands fa-github"></i>
+            <a
+              href="https://github.com/luislealdev"
+              class="black-text"
+              target="_blank"
+              >@luislealdev</a
+            >
           </div>
         </div>
       </div>
-      <div class="p-20">
-        <h1 class="f-size-100">LUIS LEAL</h1>
-        <p>Un apasionado desarrollador</p>
+      <div class="p-20 m-50">
+        <h1 class="f-size-100 center-text">LUIS LEAL</h1>
+        <p class="bold center-text">Un apasionado desarrollador</p>
+        <hr />
         <div>
-          <h2>EXPERIENCIA LABORAL</h2>
+          <h2 class="mt-10">EXPERIENCIA LABORAL</h2>
           <h3>Freelancer</h3>
           <p>2020-2024</p>
-          <p>Desarrollador de sitios y aplicaciones web para empresas, asociaciones y artistas.
+          <p>
+            Desarrollador de sitios y aplicaciones web para empresas,
+            asociaciones y artistas.
           </p>
           <h4>FullStack Developer</h4>
           <p>Septiembre 2022 - Actualidad</p>
-          <p>Desarrollador de páginas y aplicaciones web en la agencia de Marketing Creativa 2020.
+          <p>
+            Desarrollador de páginas y aplicaciones web en la agencia de
+            Marketing Creativa 2020.
           </p>
-          <h2>ESTUDIOS</h2>
+          <h2 class="mt-20">ESTUDIOS</h2>
           <h5>INSTITUTO TECNOLÓGICO NACIONAL DE MÉXICO EN CELAYA</h5>
           <p>2021 - Actualidad</p>
           <p>Ingeniería en Sistemas Computacionales</p>
@@ -54,34 +82,40 @@
           <p>2020- actualidad</p>
           <ul>
             <li>Desarrollo web - Udemy - Angela Yu</li>
-            <li>MagIA Juvenil - Inteligencia artificial - Microsoft/Intevolution</li>
+            <li>
+              MagIA Juvenil - Inteligencia artificial - Microsoft/Intevolution
+            </li>
             <li>React de cero a experto - Udemy - Fernando Herrera</li>
             <li>Next Js - Udemy -Fernando Herrera</li>
             <li>Flutter de cero a experto - Udemy - Fernando Herrera</li>
           </ul>
-          <h2>IDIOMAS</h2>
+          <h2 class="mt-20">IDIOMAS</h2>
           <ul>
             <li>Inglés Avanzado</li>
             <li>Francés Conversacional</li>
             <li>Español Nativo</li>
           </ul>
-          <h2>LENGUAJES Y HERRAMIENTAS</h2>
-          <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Next Js</li>
-            <li>Flutter</li>
-            <li>Node Js</li>
-            <li>Express</li>
-            <li>MongoDB</li>
-            <li>MySQL</li>
-            <li>PostgresQL</li>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>VSCode</li>
-          </ul>
+          <h2 class="mt-20">LENGUAJES Y HERRAMIENTAS</h2>
+          <div class="grid-c-2">
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Next Js</li>
+              <li>Flutter</li>
+              <li>Node Js</li>
+            </ul>
+            <ul>
+              <li>Express</li>
+              <li>MongoDB</li>
+              <li>MySQL</li>
+              <li>PostgresQL</li>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>VSCode</li>
+            </ul>
+          </div>
         </div>
       </div>
     </main>
